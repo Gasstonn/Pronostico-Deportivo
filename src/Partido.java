@@ -15,4 +15,16 @@ public class Partido {
         else
             return resultadoComparacion < 0 ? ResEnum.GANADO : ResEnum.PERDIDO;
     }
+
+    public Object getEquipo1() {
+        return null;
+    }
+
+    public Object getEquipo2() {
+        return null;
+    }
+
+    public ResEnum getResultado() {
+        return null;
+    }
 }
